@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Brimstone",
+        "lastName": "Brimstone",
+        "email": "",
+        "gender": "",
+        "age": "65",
+        "phoneNumber": "99669966",
+        "city": "Valorant",
+        "streetAddress": "Ascent",
+        "state": "Riot",
+        "postalCode": "",
+        "id": "14"
+    },
+    {
+        "name": "Jett",
+        "lastName": "",
+        "email": "",
+        "gender": "Female",
+        "age": "24",
+        "phoneNumber": "88888888",
+        "city": "Valorant",
+        "streetAddress": "Split",
+        "state": "Riot",
+        "postalCode": "",
+        "id": "15"
+    },
+    {
+        "name": "Cypher",
+        "age": 35,
+        "streetAddress": "bind",
+        "city": "valorant",
+        "state": "Riot",
+        "phoneNumber": 88999988,
+        "id": 16
+    },
+    {
+        "name": "Viper",
+        "age": 28,
+        "streetAddress": "Split",
+        "city": "Valorant",
+        "state": "Riot",
+        "phoneNumber": 789456,
+        "id": 17
+    },
+    {
+        "name": "Killjoy",
+        "age": 22,
+        "streetAddress": "Ice Box",
+        "city": "Valorant",
+        "state": "Riot",
+        "phoneNumber": 6143478,
+        "id": 18
+    },
+    {
+        "name": "Reyna",
+        "age": 39,
+        "streetAddress": "Mexico",
+        "city": "Valorant",
+        "state": "Riot",
+        "phoneNumber": 5555555,
+        "id": 19
+    },
+    {
+        "name": "Phoenix",
+        "age": 30,
+        "streetAddress": "IceBox",
+        "city": "Valorant",
+        "state": "Riot",
+        "phoneNumber": 1235655,
+        "id": 21
+    },
+    {
+        "name": "Yoru",
+        "age": 19,
+        "streetAddress": "Fracture",
+        "city": "Valorant",
+        "state": "Riot",
+        "phoneNumber": 55555555,
+        "id": 22
+    },
+    {
+        "name": "Wat",
+        "age": 55,
+        "streetAddress": "asdasd",
+        "city": "This",
+        "state": "that",
+        "phoneNumber": 696599,
+        "id": 23
+    },
+    {
+        "name": "Lilly",
+        "age": 20,
+        "streetAddress": "billy",
+        "city": "NY",
+        "state": "NY",
+        "phoneNumber": 555555,
+        "id": 24
+    },
+    {
+        "name": "Chamber",
+        "age": 38,
+        "streetAddress": "France",
+        "city": "Valorant",
+        "state": "Riot",
+        "phoneNumber": 884656532,
+        "id": 25
+    },
+    {
+        "name": "Omen",
+        "lastName": "",
+        "email": "",
+        "gender": "",
+        "age": "12",
+        "phoneNumber": "55555",
+        "city": "Ciry",
+        "streetAddress": "Kiddy",
+        "state": "Willy",
+        "postalCode": "",
+        "id": "26"
+    }
+]

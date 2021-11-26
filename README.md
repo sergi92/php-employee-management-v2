@@ -1,79 +1,50 @@
-`#php` `#mvc` `#master-in-software-engineering`
+# Employee management
 
-# Employee Management V2 <!-- omit in toc -->
+In this project we made a simple CRUD application to manage user profiles.
 
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-2.0-blue.svg?cacheSeconds=2592000" />
-</p>
+## Getting Started
 
-> This project provides an easy-to-use interface to manage employees information. The application user case starts with an user log in, and allows the user to read, create, delete and update the employee´s information. The user and employee data is stored in a database.
+These instructions will give you a copy of the project up and running on
+your local machine for development and testing purposes. See deployment
+for notes on deploying the project on a live system.
 
-> This project objective is to create a file structure following the MVC pattern, with a basic router implementation and OOP approach.
+### Installing
 
-## Index <!-- omit in toc -->
+A step by step series of examples that tell you how to get a development
+environment running
 
-- [Requirements](#requirements)
-- [Install - Run](#install---run)
-- [Technologies used](#technologies-used)
-- [Download project](#download-project)
-- [Usage](#usage)
-- [Based on](#based-on)
+First of all make a clone of repository
 
-## Requirements
+    git clone https://github.com/Cherrerotinoco/php-employee-management-v1
 
-- You need to have a database with all the employees and users in your mysql workspace. We provide you with all the required queries to create the database, its tables and insert mock data inside the **resources** folder.
-- Set your database configuration on the **config/db.php** file. (username, password, dbname etc.)
+After that, make sure you install all dependecies
 
-## Install - Run
+    npm install
 
-The project dependencies are already referenced in the **package-lock.json** file in the root folder. For that reason, it is only necesary to run the following command to allow these to work:
 
-```sh
-npm instal
-```
+## Deployment
 
-In order to complete/execute this project, the set up of a server environment and PHP interpreter is needed. You need to have at least PHP v7.4 or above to develop this project, which is capable of running PHP to its latest version.
+To run the project in your machine make sure you have PHP installed and Apache enviroment running.
 
-- XAMPP with PHP >= 7.4
+## Built With
 
-## Technologies used
+  - [PHP](https://www.php.net/manual/en/intro-whatis.php) - Used
+    to comunicate the backend with frontend.
+  - [JSGRID](http://js-grid.com/docs/) - Used to build the table manager for the users.
+  - [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) - Used to give styles to the front
 
-\* Visual Studio Code - Developement IDE
 
-\* HTML - Markup Language
+## Authors
 
-\* CSS - Style Sheet Language
+  - **Christian Herrero** -
+    [Cherrerotinoco](https://github.com/Cherrerotinoco)
+    
+  - **Haroon Ahmad** -
+    [haroonahmad12](https://github.com/haroonahmad12)
 
-\* Javascript - Programming Language
 
-\* Bootstrap - Front-end Library
+## Acknowledgments
 
-\* JQuery - JS library
-
-\* JS-Grid - JS library
-
-\* PHP - Scripting language
-
-\* XAMPP - Open source cross-platform web server
-
-## Download project
-
-To download or install this project in your local computer, either clone the repository or downdload. In order to run the project, please refer to the **requirements** and **install** section in this README file.
-
-## Usage
-
-```sh
-This project could be used to manage employee information.
-```
-
-## Based on
-
-This repository is based on a past delivery from master's students:
-
-👤 **Víctor Martínez**
-
-👤 **Ismael Vázquez**
-
----
-
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+  - Hat tip to anyone whose code is used
+  - Inspiration
+  - etc
