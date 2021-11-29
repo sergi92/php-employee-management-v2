@@ -1,26 +1,32 @@
 <?php
-// require_once 'controllers/error.php';
+// require '../controllers/error.php';
 
 class App
 {
     function __construct()
     {
-        // var_dump($_GET['url']);
         $url = $_GET['url'];
         $url = rtrim($url, '/');
         $url = explode('/', $url);
-        // $this->load($url);
+
+        var_dump($url);
+
         $controllerFile = 'controllers/' . $url[0] . '.php';
-        echo "controller file" . $controllerFile;
-        // $cleanUrl = substr($url[1], 0, -4);
+
+        echo "controller file: " . $controllerFile;
+
         if (file_exists($controllerFile)) {
+            echo "controller file " . $controllerFile;
             require_once $controllerFile;
-            $controller = new $url[0]();
+            $controller = new $url[0];
             if (isset($url[1])) {
-                $controller->{$url[2]}();
+                echo "<pre>";
+                $controller->{$url[1]}();
             }
         } else {
-            $controller = new Error();
+            require_once 'controllers/error.php';
+            $controller = new ErrorClass();
+            print_r($controller);
         }
     }
 }
