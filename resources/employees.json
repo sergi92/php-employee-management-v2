@@ -13,19 +13,6 @@
         "id": "14"
     },
     {
-        "name": "Jett",
-        "lastName": "",
-        "email": "",
-        "gender": "Female",
-        "age": "24",
-        "phoneNumber": "88888888",
-        "city": "Valorant",
-        "streetAddress": "Split",
-        "state": "Riot",
-        "postalCode": "",
-        "id": "15"
-    },
-    {
         "name": "Cypher",
         "age": 35,
         "streetAddress": "bind",
@@ -118,5 +105,14 @@
         "state": "Willy",
         "postalCode": "",
         "id": "26"
+    },
+    {
+        "name": "Andres",
+        "age": 26,
+        "streetAddress": "calle de triana",
+        "city": "sevilla",
+        "state": "And",
+        "phoneNumber": 690703141,
+        "id": 27
     }
 ]
